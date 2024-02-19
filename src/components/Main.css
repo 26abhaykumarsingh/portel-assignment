@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap");
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Comic Neue", cursive;
+}
+
+.header {
+  width: 85vw;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 15px;
+  font-family: "Comic Neue", cursive;
+  font-weight: 600;
+}
+
+.saveBtn {
+  position: absolute;
+  right: 20px;
+  height: 27px;
+  width: 70px;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+
+  font-size: 15px;
+
+  border: 2px solid black;
+  box-shadow: 3px 3px;
+}
+
+.editorArea {
+  height: 85vh;
+  width: 85vw;
+  padding: 20px;
+  padding-top: 30px;
+  border: 3px solid #a8c8f4;
+}
